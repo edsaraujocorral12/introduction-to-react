@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
 
+import logoReact from './assets/logo.png';
+
 function App() {
-  return <h1>Hello React :D</h1>
+  return <img width="200" src={logoReact} alt="" />
 }
 export default App;
