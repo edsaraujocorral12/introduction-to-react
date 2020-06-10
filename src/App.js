@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
 
-import logoReact from './assets/logo.png';
+import TechList from './components/TechList';
 
 function App() {
-  return <img width="200" src={logoReact} alt="" />
+  return <TechList />
 }
 export default App;
