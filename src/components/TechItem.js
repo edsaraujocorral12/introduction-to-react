@@ -12,4 +12,8 @@ function TechItem({ tech, onDelete }) {
     </li>);
 }
 
+TechItem.defaultProps = {
+  tech: 'Oculto',
+}
+
 export default TechItem;
