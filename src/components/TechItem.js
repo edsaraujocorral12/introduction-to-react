@@ -13,9 +13,9 @@ function TechItem({ tech, onDelete }) {
     </li>);
 }
 
-TechItem.defaultProps = {
-  tech: 'Oculto',
-}
+// TechItem.defaultProps = {
+//   //tech: 'Oculto',
+// }
 TechItem.propTypes = {
   tech: PropTypes.string,
   onDelete: PropTypes.func.isRequired,
